@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "office-ui-client-side-solution",
+    "id": "d9515904-01d6-4978-9a0b-3c258561f82c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "officeUI description"
+      },
+      "longDescription": {
+        "default": "officeUI description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "office-ui Feature",
+        "description": "The feature that activates elements of the office-ui solution.",
+        "id": "3d87f6ca-8d3b-43ee-86cd-2dfe86e9d7b2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/office-ui.sppkg"
+  }
+}

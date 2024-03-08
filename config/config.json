@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "offic-ui-web-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/officUiWeb/OfficUiWebWebPart.js",
+          "manifest": "./src/webparts/officUiWeb/OfficUiWebWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "OfficUiWebWebPartStrings": "lib/webparts/officUiWeb/loc/{locale}.js"
+  }
+}
